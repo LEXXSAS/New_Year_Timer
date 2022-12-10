@@ -23,12 +23,12 @@ let counter = setInterval(() => {
     }
 }, 1000);
 
-function loader() {
-    document.querySelector('.loader').classList.add('fade-out');
-}
+// function loader() {
+//     document.querySelector('.loader').classList.add('fade-out');
+// }
 
-function fadeOut() {
-    setInterval(loader, 500);
-}
+// function fadeOut() {
+//     setInterval(loader, 500);
+// }
 
-window.onload = fadeOut();
+// window.onload = fadeOut();
