@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>New Year timer</title>
+</head>
+<body>
+   <div id="container" class="parralax-container">
+       <ul id="christmas_scene" class="christmas-scene">
+           <li class="l layer l-1">
+               <div class="layer-5 layer-photo"></div>
+           </li>
+           <li class="l layer l-2">
+               <div class="layer-4 layer-photo"></div>
+           </li>
+           <li class="l layer l-3">
+               <div class="layer-3 layer-photo"></div>
+           </li>
+           <li class="l layer l-4">
+               <div class="layer-2 layer-photo"></div>
+           </li>
+           <li class="l layer l-5">
+               <div class="layer-1 layer-photo"></div>
+           </li>
+       </ul>
+       <div id="countdown_container" class="countdown-container">
+           <div class="countdown-globe days">
+               <div class="number">37</div>
+               <div class="title">День</div>
+           </div>
+           <div class="countdown-globe hours">
+               <div class="number">37</div>
+               <div class="title">Часа</div>
+           </div>
+           <div class="countdown-globe minutes">
+               <div class="number">37</div>
+               <div class="title">Минуты</div>
+           </div>
+           <div class="countdown-globe seconds">
+               <div class="number">37</div>
+               <div class="title">Секунд</div>
+           </div>
+       </div>
+       <div class="merry-christmas-text">Merry Christmas</div>
+       <div class="happy-new-year"></div>
+       <div id="mail_pole" class="mail-pole">
+       <img src="img/pole.png" alt="pole">
+       </div>
+       <img src="img/christmas-tree.png" alt="christmas-tree" class="christmas-tree">
+       <div class="icons-container">
+           <a href="#"><img src="img/facebook.png" alt=""></a>
+           <a href="#"><img src="img/google.png" alt=""></a>
+           <a href="#"><img src="img/twitter.png" alt=""></a>
+           <a href="#"><img src="img/instagram.png" alt=""></a>
+           <a href="#"><img src="img/linkedin.png" alt=""></a>
+           <a href="#"><img src="img/pinterest.png" alt=""></a>
+       </div>
+       <canvas id="canvas" class="canvas"></canvas>
+   </div>
+   <div class="loader"></div>
+   <script src="js/snow.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
