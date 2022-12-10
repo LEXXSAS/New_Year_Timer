@@ -39,7 +39,6 @@ body,
 #container.parralax-container {
     display: flex;
 	flex-direction: column;
-	min-height: 100%;
     position: relative;
     max-width: 2560px;
     margin: 0 auto;
@@ -223,6 +222,12 @@ body,
     }
 }
 
+@media (max-width: 564px) {
+    #container.parralax-container {
+        min-height: 899px;
+    }
+}
+
 @media (min-width: 565px) {
     .countdown-container {
         width: 60rem;
@@ -261,6 +266,9 @@ body,
         right: 10rem;
         bottom: 1.5rem;
         margin-right: 0;
+    }
+    #container.parralax-container {
+        min-height: 861px;
     }
 }
 
