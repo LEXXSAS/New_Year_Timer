@@ -223,10 +223,16 @@ body,
     }
 }
 
+@media (max-width: 600px) {
+    #container.parralax-container {
+	    min-height: 750px;
+    }
+}
+
 @media (max-width: 564px) {
     #container.parralax-container {
 /*         min-height: 899px; */
-	min-height: 750px;
+/* 	min-height: 750px; */
     }
 }
 
