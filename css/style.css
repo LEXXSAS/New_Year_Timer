@@ -223,7 +223,7 @@ body,
     }
 }
 
-@media (max-hight: 450px) {
+@media (max-height: 450px) {
     #container.parralax-container {
 	    min-height: 750px;
     }
