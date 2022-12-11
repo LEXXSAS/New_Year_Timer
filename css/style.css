@@ -223,14 +223,14 @@ body,
     }
 }
 
-/* @media (min-height: 450px) {
+@media (min-height: 450px) {
     #container.parralax-container {
 	    min-height: 750px;
     }
-} */
+}
 
 
-@media (orientation:landscape) {
+@media (min-height: 450px) and (orientation:landscape) {
   min-height: 750px;
 }
 
