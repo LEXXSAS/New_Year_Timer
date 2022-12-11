@@ -223,11 +223,18 @@ body,
     }
 }
 
-@media (min-height: 450px) {
+/* @media (min-height: 450px) {
     #container.parralax-container {
 	    min-height: 750px;
     }
+} */
+
+
+@media (orientation:landscape) {
+  min-height: 750px;
 }
+
+
 
 @media (max-width: 600px) {
     #container.parralax-container {
