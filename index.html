@@ -15,47 +15,77 @@
     <link rel="stylesheet" href="css/style.css">
     <title>New Year timer</title>
 </head>
+<!-- тут начинается  body-->
 <body>
-   <div id="container" class="parralax-container">
+<!-- тут начинается  общий блок-->
+<div id="container" class="parralax-container">
+    <!-- тут разрыв края эффект -->
     <div id="torn-edges" class="torn-edges"></div>
-                <div id="countdown_container" class="countdown-container">
-                    <div class="countdown-globe days">
-                        <div class="number">37</div>
-                        <div class="title">День</div>
-                    </div>
-                    <div class="countdown-globe hours">
-                        <div class="number">37</div>
-                        <div class="title">Часа</div>
-                    </div>
-                    <div class="countdown-globe minutes">
-                        <div class="number">37</div>
-                        <div class="title">Минуты</div>
-                    </div>
-                    <div class="countdown-globe seconds">
-                        <div class="number">37</div>
-                        <div class="title">Секунды</div>
-                    </div>
-                </div>
-                <div id="christmas_scene_container" class="christmas_scene_container">
-                    <div id="christmas_scene_img" class="christmas-collapse-img">
-                    <img src="img/collapse.png" class="collapse" alt="" srcset=""></div>
-                    <div class="christmas-tree-div"><img src="img/christmas-tree.png" alt="christmas-tree" class="christmas-tree"></div>
-                </div>                       
-       <div class="merry-christmas-text">Merry Christmas</div>
-       <div class="happy-new-year"></div>
-       <div class="icons-container">
-           <a href="#"><img src="img/facebook.png" alt=""></a>
-           <a href="#"><img src="img/google.png" alt=""></a>
-           <a href="#"><img src="img/twitter.png" alt=""></a>
-           <a href="#"><img src="img/instagram.png" alt=""></a>
-           <a href="#"><img src="img/linkedin.png" alt=""></a>
-           <a href="#"><img src="img/pinterest.png" alt=""></a>
-       </div>
-       <canvas id="canvas" class="canvas"></canvas>
-   </div>
-   <div class="big-bg"></div>
-<!--    <div class="loader"></div> -->
+    <!-- тут начинается верхний блок -->
+    <div class="top" id="top">
+        <!-- тут начинается счетчик -->
+        <div id="countdown_container" class="countdown-container">
+            <div class="countdown-globe days">
+                <div class="number">37</div>
+                <div class="title">День</div>
+            </div>
+            <div class="countdown-globe hours">
+                <div class="number">37</div>
+                <div class="title">Часа</div>
+            </div>
+            <div class="countdown-globe minutes">
+                <div class="number">37</div>
+                <div class="title">Минуты</div>
+            </div>
+            <div class="countdown-globe seconds">
+                <div class="number">37</div>
+                <div class="title">Секунды</div>
+            </div>
+        </div>
+        <!-- тут начинается текст основного заголовка -->
+        <div class="merry-christmas-text">
+            <h1>Merry Christmas</h1>
+            <img class="happy-new-year" id="happy-new-year" src="../img/happy-new-year.png" alt="">
+        </div>
+        <!-- тут начинается картинка с текстом happy-new-year -->
+        <div class=""></div>
+    </div>
+    <!-- тут начинается средний блок -->
+    <div class="medium" id="medium"></div>
+    <!-- тут начинается нижний блок -->
+    <div class="down" id="down">
+        <!-- тут начинается блок с картинками collapse и tree -->
+        <div id="christmas_scene_container" class="christmas_scene_container">
+            <div id="christmas_scene_img" class="christmas-collapse-img">
+            <img src="img/collapse.png" class="collapse" alt="" srcset=""></div>
+            <div class="christmas-tree-div"><img src="img/christmas-tree.png" alt="christmas-tree" class="christmas-tree"></div>
+        </div>  
+    </div>
+    <!-- тут начинается футер -->
+    <footer class="footer" id="footer">
+        <!-- тут начинаются иконки -->
+        <div class="icons-container">
+            <a href="#"><img src="img/facebook.png" alt=""></a>
+            <a href="#"><img src="img/google.png" alt=""></a>
+            <a href="#"><img src="img/twitter.png" alt=""></a>
+            <a href="#"><img src="img/instagram.png" alt=""></a>
+            <a href="#"><img src="img/linkedin.png" alt=""></a>
+            <a href="#"><img src="img/pinterest.png" alt=""></a>
+        </div>
+    </footer>
+<!-- конец общего блока  -->
+</div>
+    <!-- тут начинается отдельный блок -->
+    <div class="more">
+        <!-- тут начинается общий bg градиент -->
+        <div class="big-bg"></div>
+    </div>
+<!-- холст снежинок -->
+    <canvas id="canvas" class="canvas"></canvas>
+<!-- скрипты -->
    <script src="js/snow.js"></script>
     <script src="js/main.js"></script>
+<!-- конец body -->
 </body>
+<!-- конец html -->
 </html>
