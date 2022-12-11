@@ -41,7 +41,7 @@ body,
     flex-direction: column;
 /*     min-height: 900px; */
     position: relative;
-    max-width: 2560px;
+    max-width: 1953px;
     margin: 0 auto;
     overflow: hidden;
     background: linear-gradient(to bottom, rgb(14, 81, 133) 0%, rgb(26, 139, 178) 60%, rgb(33, 159, 193) 100%);
@@ -271,7 +271,7 @@ body,
     }
     #container.parralax-container {
 /*         min-height: 861px; */
-	   min-height: 750px;
+/* 	   min-height: 750px; */
     }
 }
 
