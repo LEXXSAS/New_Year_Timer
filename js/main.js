@@ -3,7 +3,7 @@ let days = document.querySelector('.days .number'),
     minutes = document.querySelector('.minutes .number'),
     seconds = document.querySelector('.seconds .number');
 
-countDownDate = new Date("Dec 31, 2022 23:59:59").getTime();
+countDownDate = new Date("Dec 31, 2023 23:59:59").getTime();
 
 let counter = setInterval(() => {
     let dateNow = new Date().getTime();
